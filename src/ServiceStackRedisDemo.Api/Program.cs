@@ -11,9 +11,9 @@ class Program
     static void Main()
     {
         // Load configuration from appsettings.json or any other source
-        configuration = new ConfigurationBuilder()
-            .AddJsonFile("appsettings.json")
-            .Build();
+        var builder = WebApplication
+         .CreateBuilder(args)
+         .AddMicroFramework();
 
         // Initialize a timer to run the job at midnight
         var midnight = GetNextMidnight();
