@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4BD5CA2A-5167-4D23-BA95-615BFDAA8676}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceStackRedisDemo.Api", "src\ServiceStackRedisDemo.Api\ServiceStackRedisDemo.Api.csproj", "{0E25E21B-DB77-4F39-94E2-3415FE199C14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E25E21B-DB77-4F39-94E2-3415FE199C14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E25E21B-DB77-4F39-94E2-3415FE199C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E25E21B-DB77-4F39-94E2-3415FE199C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E25E21B-DB77-4F39-94E2-3415FE199C14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E25E21B-DB77-4F39-94E2-3415FE199C14} = {4BD5CA2A-5167-4D23-BA95-615BFDAA8676}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B839359-B21E-422F-941C-2968DD8CE572}
+	EndGlobalSection
+EndGlobal
